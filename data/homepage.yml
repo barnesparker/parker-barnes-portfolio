@@ -1,83 +1,62 @@
 head:
-  title: "Matt Dancho's Data Science Portfolio"
+  title: "Parker Barnes' Data Science Portfolio"
 
 # showcase
 showcase:
   enable: true
-  title: "Hello, I’m Matt Dancho."
+  title: "Hello, I’m Parker Barnes."
   subtitle: "Data Scientist"
-  description: "Matt is the founder of <a target='_blank' href='https://www.business-science.io/'>Business Science</a>, an online data science school that helps students become a data scientist in 6-months or less."
-  image:
-    x: "img/showcase/data-science.gif"
-    _2x: "img/showcase/data-science.gif"
-  imageMobile:
-    x: "img/showcase/data-science.gif"
-    _2x: "img/showcase/data-science.gif"
+  description: "Parker is ..."
+  # image:
+    # x: "img/showcase/data-science.gif"
+    # _2x: "img/showcase/data-science.gif"
+  # imageMobile:
+    # x: "img/showcase/data-science.gif"
+    # _2x: "img/showcase/data-science.gif"
 
   button:
     icon: "icon-mail-fill"
-    btnText: "Contact Matt"
-    URL: "mailto:your-email@gmail.com"
+    btnText: "Contact Parker"
+    URL: "mailto:barnesparker1@gmail.com"
 
   socialLinks:
     - icon: "linkedin"
-      URL: "https://www.linkedin.com"
+      URL: "https://www.linkedin.com/in/parker-barnes/"
 
     - icon: "github"
-      URL: "https://github.com"
+      URL: "https://github.com/barnesparker"
 
     - icon: "twitter"
-      URL: "https://twitter.com"
-
-    - icon: "dribbble"
-      URL: "https://dribbble.com"
-
-    - icon: "behance"
-      URL: "https://www.behance.net"
-
-    - icon: "youtube"
-      URL: "https://www.youtube.com"
-
-    - icon: "instagram"
-      URL: "https://www.instagram.com"
-
-    - icon: "facebook"
-      URL: "https://www.facebook.com"
-
-    - icon: "codepen"
-      URL: "#"
-
-    - icon: "yelp"
-      URL: "https://www.yelp.com/"
+      URL: "https://twitter.com/paRkeRuser1"
 
 # about
 about:
   enable: true
   title: "Who am I?"
   content: 
-    <p class="lead">
-    <strong>I love helping data scientists.</strong> My passion is training. But, when I am not making new courses
-    or building software, I enjoy vacationing with my family and friends. 
-    </p>
-    <p class="lead">
-    <strong>My area of focus</strong> is applying data science to business. 
-    I create value for companies by understanding the financial
-    cost of problems and delivering a return-on-investment with my solutions. 
-    I enjoy learning, working with stakeholders, and making better decisions with data.
-    </p>
+    # <p class="lead">
+    # <strong>I love helping data scientists.</strong> My passion is training. But, when I am not making new courses
+    # or building software, I enjoy vacationing with my family and friends. 
+    # </p>
+    # <p class="lead">
+    # <strong>My area of focus</strong> is applying data science to business. 
+    # I create value for companies by understanding the financial
+    # cost of problems and delivering a return-on-investment with my solutions. 
+    # I enjoy learning, working with stakeholders, and making better decisions with data.
+    # </p>
   button:
     icon: "icon-smile-fill"
     btnText: "About Me"
     URL: "https://www.linkedin.com"
   image:
-    x: "img/who-am-i/user-picture-2.jpg"
-    _2x: "img/who-am-i/user-picture-2.jpg"
+    x: "img/who-am-i/profile.jpeg"
+    _2x: "img/who-am-i/profile.jpeg"
 
 # experience
 experience:
   enable: true
   title: "Experience"
-  description: "Over 15+ years of experience working with companies from all over the world. I design & develop data science products to help businesses increase profitability and improve customer experience."
+  # description: "Over 15+ years of experience working with companies from all over the world. I design & develop data science products to help businesses increase profitability and improve customer experience."
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
@@ -85,37 +64,33 @@ experience:
   button2:
     icon: "icon-profile-fill"
     btnText: "Download My Resume"
-    URL: "#"
+    URL: "https://github.com/barnesparker/parker-barnes-resume/blob/main/Resume.pdf"
 
   items:
-    - title: "Director of Product Engineering & Market Development"
-      company: "Bonney Forge"
-      duration: "Jan 2017 - Aug 2018"
+    - title: "Data Scientist"
+      company: "Nursa"
+      duration: "May 2022 - Present"
 
-    - title: "Manager of Sales Engineering"
-      company: "Bonney Forge"
-      duration: "Mar 2014 - Jan 2017"
+    - title: "Data Scientist"
+      company: "PILYTIX"
+      duration: "Dec 2021 - May 2022"
 
-    - title: "Manager of Product Engineering"
-      company: "Bonney Forge"
-      duration: "Nov 2011 - Mar 2014"
+    - title: "Data Analyst"
+      company: "International Academies of Emergency Dispatch (IAED)"
+      duration: "May 2021 - Dec 2021"
 
 # education
 education:
   enable: true
   title: "Education"
   items:
-    - university: "Penn State University"
-      year: "2014-2015"
-      degree: "Master of Business Administration (MBA)"
+    - university: "University of Utah"
+      year: "2021-2022"
+      degree: "Master of Science, Business Analytics (MSBA)"
 
-    - university: "University of Pittsburgh"
-      year: "2008-2010"
-      degree: "Master of Industrial Engineering"
-      
-    - university: "Penn State University"
-      year: "2002-2006"
-      degree: "Bachelor of Mechanical Engineering"
+    - university: "Brigham Young University"
+      year: "2017-2020"
+      degree: "Bachelor of Science, Statistics, Emphasis in Data Science"
 
 
 
@@ -156,28 +131,28 @@ client_and_work:
         _2x: "img/clients/ztos@2x.png"
       alt: "Ztos"
 
-  works:
-    - title: "Sales Demand Forecast Application"
-      description: "This application helps Marketing & Sales identify trends in product demand. The application is built in my Shiny Predictive Dashboards Course using Machine Learning."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Launch Application"
-        URL: "https://business-science.shinyapps.io/sales_dashboard_demand_forecast/"
-      image:
-        x: "img/works/app_sales_demand_forecast.jpg"
-        _2x: "img/works/app_sales_demand_forecast.jpg"
-      is_even: true
-
-    - title: "Product Price Recommendation"
-      description: "This application helps Marketing & R&D Teams determine product gaps and price new products to fill the gaps using machine learning. The application is built in my Shiny Predictive Dashboards Course using Machine Learning."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Launch Application"
-        URL: "https://business-science.shinyapps.io/cannondale_price_prediction_app/"
-      image:
-        x: "img/works/app_cannondale_price_prediction.jpg"
-        _2x: "img/works/app_cannondale_price_prediction.jpg"
-      is_even: false
+  # works:
+  #   - title: "Sales Demand Forecast Application"
+  #     description: "This application helps Marketing & Sales identify trends in product demand. The application is built in my Shiny Predictive Dashboards Course using Machine Learning."
+  #     button:
+  #       icon: "icon-arrow-right"
+  #       btnText: "Launch Application"
+  #       URL: "https://business-science.shinyapps.io/sales_dashboard_demand_forecast/"
+  #     image:
+  #       x: "img/works/app_sales_demand_forecast.jpg"
+  #       _2x: "img/works/app_sales_demand_forecast.jpg"
+  #     is_even: true
+  # 
+  #   - title: "Product Price Recommendation"
+  #     description: "This application helps Marketing & R&D Teams determine product gaps and price new products to fill the gaps using machine learning. The application is built in my Shiny Predictive Dashboards Course using Machine Learning."
+  #     button:
+  #       icon: "icon-arrow-right"
+  #       btnText: "Launch Application"
+  #       URL: "https://business-science.shinyapps.io/cannondale_price_prediction_app/"
+  #     image:
+  #       x: "img/works/app_cannondale_price_prediction.jpg"
+  #       _2x: "img/works/app_cannondale_price_prediction.jpg"
+  #     is_even: false
 
     
 
@@ -213,23 +188,23 @@ testimonial:
 # contact
 contact:
   enable: true
-  title: "Contact Matt"
+  title: "Contact Parker"
     
-  image:
-    x: "img/who-am-i/user-picture-2.jpg"
-    _2x: "img/who-am-i/user-picture-2.jpg"
+  # image:
+    # x: "img/who-am-i/profile.jpeg"
+    # _2x: "img/who-am-i/profile.jpeg"
     
   button:
     icon: "icon-mail-fill"
     btnText: "Send Message"
-    btnAction: 'mailto:your-email@gmail.com'
+    btnAction: 'mailto:barnesparker1@gmail.com'
     
   phone:
     title: "Phone Number"
-    number: "--"
+    number: "801-473-3295"
   email:
     title: "Email"
-    email: '<a href="mailto:your-email@gmail.com">your-email@gmail.com</a>'
+    email: '<a href="mailto:barnesparker1@gmail.com">barnesparker1@gmail.com</a>'
   address:
     title: "Address"
     address: "--"
